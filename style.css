@@ -1,0 +1,89 @@
+body {
+  background-color: #26243f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Consolas";
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.container {
+  width: 700px;
+  height: 400px;
+  /* top: 5.5rem; */
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  position: relative;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+/* game section */
+
+.content {
+  padding: 1rem;
+}
+
+.question {
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+.answer {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.submit {
+  background-color: #31d231;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+}
+
+
+/* results section  */
+
+.result {
+    display: none;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .result h1{
+      font-size: 2.5rem;
+  }
+  
+  .correct{
+    color: #00ff00;
+  }
+  
+  .wrong{
+      color: #ff0000;
+  }
+  
+  .play{
+      color: #fff;
+      background-color: #26243f;
+      cursor: pointer;
+      font-size: 1.5rem;
+      margin: .5rem;
+      padding: .5rem 1rem;
+      border: none;
+      border-radius: .5rem;
+      font-weight: 300;
+  }
